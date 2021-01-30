@@ -1,0 +1,84 @@
+/* Tabs */
+
+ul#tabs-nav {
+  list-style: none;
+  margin: auto;
+  padding: 5px;
+  position: relative;
+  float: right;
+  overflow: auto;
+}
+ul#tabs-nav li {
+    position: relative;
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+ul#tabs-nav li:hover{
+  background-color: var(--mildgreen);
+}
+ul#tabs-nav li.active {
+  background-color: var(--white);
+}
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active  #tabs-nav li a{
+  color: red;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+
+}
+ul.process li p {
+    text-align: left;
+    color: var(--white);
+}
+.tab-content {
+  padding: 10px;
+}
+#tabs-nav li.active a {
+    color: #74bf70;
+}
+ul#tabs-nav li {
+    list-style: none;
+}
+ul#tabs-nav li {
+    border-radius: 25px;
+    padding: 10px 13px;
+    margin: 0 180px 0 0;
+    background-color:  var(--mildgreen);
+    border: #fff 2px solid;
+}
+
+ul#tabs-nav:before {
+    content: "";
+    width: 700px;
+    height: 5px;
+    background-color: var(--white);
+    position: absolute;
+    top: 26px;
+    left: 5px;
+    right: 0px;
+    bottom: 0px;
+}
+ul#tabs-nav li:hover, ul#tabs-nav li.active  ul#tabs-nav li a{
+color: #6fbd6d;
+}
+ul.process li {
+    list-style: none;
+}
+ul.process li {
+    list-style: none;
+    display: table-cell;
+    width: 50%;
+}
+h2.work-tab span {
+    display: block;
+}
+ul.process li h2 {
+    text-align: left;
+    color:  var(--white);
+}
